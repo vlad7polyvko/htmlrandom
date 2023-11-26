@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 68, 0, 0.644);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+text-align: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+  width: 30%;
+  margin: 10px auto;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.stretch-last {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+}
+.stretch-last :last-child {
+  flex-grow: 1;
+}
+h2 {
+  text-align: center;
+}
+.facebook {
+  text-align: center;
+  background-color: rgba(0, 110, 255, 0.322);
+  width: 30%;
+  height: 30%;
+  
+}
+
+.container {
+  width: 30%;
+  margin: 10px auto;
+}
+.twitter {
+  text-align: center;
+  background-color: rgb(28, 178, 228);
+  width: 30%;
+  height: 30%
+}
+img {
+  width: center;
+}
+/* input styling */
+input.login {
+  background-color: lightcyan;
+  color: black;
+  padding: 10px;
+  border: none;
+  outline: none;
+  transition: .1s;
+}
+input.login:focus {
+  box-shadow: inset 1px 1px 4px gray;
+}
+
+button.login {
+  background-color: rgba(0, 128, 0, 0.733);
+  color: white;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+}
